@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Enterprise Management Solution
+#    odoo, Open Source Enterprise Management Solution
 #    GRP Estado Uruguay
 #    Copyright (C) 2017 Quanam (ATEL SA., Uruguay)
 #
@@ -22,8 +22,8 @@
 
 import logging
 
-from openerp import models, fields, api, _
-from openerp.exceptions import ValidationError
+from odoo import models, fields, api, _
+from odoo.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 

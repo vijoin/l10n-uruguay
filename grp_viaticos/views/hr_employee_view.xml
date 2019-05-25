@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--TODO: SPRING 11 GAP 24 L-->
-<openerp>
+<odoo>
     <data>
         <record id="hr_employee_view_form" model="ir.ui.view">
             <field name="name">hr.employee.view.form.inherit</field>
@@ -17,4 +17,4 @@
             </field>
         </record>
     </data>
-</openerp>
+</odoo>

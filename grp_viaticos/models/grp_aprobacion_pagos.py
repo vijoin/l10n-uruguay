@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Enterprise Management Solution
+#    odoo, Open Source Enterprise Management Solution
 #    GRP Estado Uruguay
 #    Copyright (C) 2017 Quanam (ATEL SA., Uruguay)
 #
@@ -20,7 +20,7 @@
 #
 ##############################################################################
 
-from openerp import models, fields, api
+from odoo import models, fields, api
 
 # TODO: SPRING 11 GAP 28 L
 class GrpAprobacionPagos(models.Model):

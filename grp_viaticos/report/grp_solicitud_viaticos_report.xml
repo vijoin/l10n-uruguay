@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <record id="paperformat_grp_viaticos" model="report.paperformat">
             <field name="name">Solicitud de viajes</field>
@@ -30,4 +30,4 @@
             <field name="paperformat_id" ref="paperformat_grp_viaticos"/>
         </record>
     </data>
-</openerp>
+</odoo>

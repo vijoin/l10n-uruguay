@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Enterprise Management Solution
+#    odoo, Open Source Enterprise Management Solution
 #    GRP Estado Uruguay
 #    Copyright (C) 2017 Quanam (ATEL SA., Uruguay)
 #
@@ -19,8 +19,8 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-from openerp import models, fields, api, exceptions, _
-from openerp import tools
+from odoo import models, fields, api, exceptions, _
+from odoo import tools
 
 LISTA_ESTADOS_SOLICITUD = [
     ('borrador', u'Borrador'),

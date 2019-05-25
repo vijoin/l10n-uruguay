@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <!-- Secuencia para Solicitud de Viáticos -->
         <record id="seq_type_sv_number" model="ir.sequence.type">
@@ -24,4 +24,4 @@
             <field name="padding">4</field>
         </record>
     </data>
-</openerp>
+</odoo>

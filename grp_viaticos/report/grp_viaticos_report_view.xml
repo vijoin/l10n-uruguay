@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- TODO: L SPRING 12 GAP 479 -->
-<openerp>
+<odoo>
     <data>
         <record id="view_grp_viaticos_report_search" model="ir.ui.view">
             <field name="name">grp.viaticos.report.search</field>
@@ -77,4 +77,4 @@
                   id="menu_grp_viaticos_report" parent="grp_compras_estatales.menu_sr_main" sequence="5"/>
 
     </data>
-</openerp>
+</odoo>

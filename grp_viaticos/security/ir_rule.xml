@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <!--RAGU se elimina la restriccion de Odoo para Empleados-->
         <delete id="hr_expense.property_rule_expense_employee" model="ir.rule"/>
@@ -33,4 +33,4 @@
         </record>
 
     </data>
-</openerp>
+</odoo>

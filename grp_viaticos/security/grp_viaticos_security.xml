@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="0">
         <!-- ROLES PARA LA SOLICITUD DE VIATICOS -->
         <record id="category_grp_viaticos" model="ir.module.category">
@@ -86,4 +86,4 @@
         <!-- PCAR 08 03 2017 Fin -->
 
     </data>
-</openerp>
+</odoo>

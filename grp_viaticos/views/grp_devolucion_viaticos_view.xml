@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
+<odoo>
     <data>
 
         <!--TODO: SPRING 11 GAP 28 L-->
@@ -167,4 +167,4 @@
             sequence="251" groups="grp_tesoreria.group_grp_tesoreria"/>
 
     </data>
-</openerp>
+</odoo>

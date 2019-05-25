@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Enterprise Management Solution
+#    odoo, Open Source Enterprise Management Solution
 #    GRP Estado Uruguay
 #    Copyright (C) 2017 Quanam (ATEL SA., Uruguay)
 #
@@ -24,11 +24,11 @@ import logging
 import time
 from datetime import datetime
 
-import openerp.addons.decimal_precision as dp
-from openerp import SUPERUSER_ID
-from openerp import models, fields, api, _
-from openerp import workflow
-from openerp.exceptions import ValidationError
+import odoo.addons.decimal_precision as dp
+from odoo import SUPERUSER_ID
+from odoo import models, fields, api, _
+from odoo import workflow
+from odoo.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 

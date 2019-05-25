@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <!--&lt;!&ndash; Campo traduccion de Cuenta Adelanto &ndash;&gt;-->
         <!--<record id="translation_viaticos_1" model="ir.translation">-->
@@ -10,4 +10,4 @@
             <!--<field name="type">field</field>-->
         <!--</record>-->
     </data>
-</openerp>
+</odoo>

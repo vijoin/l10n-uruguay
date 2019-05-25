@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <!-- TODO: K SPRING 12 GAP 33 -->
         <!--Alerta renovaciones automatizadas de Contrato-->
@@ -34,4 +34,4 @@
               <field name="server_action_ids" eval="[(6,0,[ref('act_alerta_func_anticipos')])]"/>
         </record>
     </data>
-</openerp>
+</odoo>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Enterprise Management Solution
+#    odoo, Open Source Enterprise Management Solution
 #    GRP Estado Uruguay
 #    Copyright (C) 2017 Quanam (ATEL SA., Uruguay)
 #
@@ -20,8 +20,8 @@
 #
 ##############################################################################
 
-from openerp import models, fields, exceptions, api, _
-import openerp.addons.decimal_precision as dp
+from odoo import models, fields, exceptions, api, _
+import odoo.addons.decimal_precision as dp
 import logging
 import time
 

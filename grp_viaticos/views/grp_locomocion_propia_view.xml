@@ -1,5 +1,5 @@
 <!--TODO: SPRING 11 GAP 25 K-->
-<openerp>
+<odoo>
 	<data>
 		<record id="grp_locomocion_propia_view_form" model="ir.ui.view">
             <field name="name">grp.locomocion.propia.view.form</field>
@@ -64,4 +64,4 @@
              groups="grp_viaticos.grp_configurador viatico"/>
 
 	</data>
-</openerp>
+</odoo>

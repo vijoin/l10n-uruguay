@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--TODO: SPRING 11 GAP 27 L-->
-<openerp>
+<odoo>
     <data>
         <template id="reporte_solicitud_viaticos_view">
             <t t-call="report.html_container">
@@ -334,4 +334,4 @@
 
 
     </data>
-</openerp>
+</odoo>
