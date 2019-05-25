@@ -22,16 +22,17 @@
 
 {
     'name': 'GRP - Viáticos',
-    'version': '1.0',
+    'version': '12.0.1.0',
     'author': 'Quanam',
     'website': 'www.quanam.com',
-    'category': '',
-    'images': [],
-    'depends': ['base','grp_compras_estatales','hr_expense','grp_hr_expense','base_suspend_security'],
+    'category': 'GRP',
+    'depends': ['base',
+                'grp_compras_estatales',
+                'hr_expense',
+                'grp_hr_expense',
+                'base_suspend_security'],
     'description': """  Funcionalidad de viaticos
 """,
-    'demo': [],
-    'test': [],
     'data': [
         'security/grp_viaticos_security.xml',
         'security/ir_rule.xml',
@@ -40,21 +41,19 @@
         'views/grp_product_view.xml',
         'views/grp_adelanto_viaticos_view.xml',
         'views/grp_hr_expense_view.xml',
-        'views/grp_configuracion_importes_viaticos_view.xml',  # TODO: SPRING 11 GAP 25 K
-        'views/grp_locomocion_propia_view.xml',  # TODO: SPRING 11 GAP 25 K
+        'views/grp_configuracion_importes_viaticos_view.xml',
+        'views/grp_locomocion_propia_view.xml',
         'data/grp_viaticos_sequence.xml',
         'data/grp_viaticos_translation.xml',
         'report/grp_solicitud_viaticos_report.xml',
         'report/grp_viaticos_report_view.xml',
         'views/grp_solicitud_viaticos_report_tmpl.xml',
         'views/hr_employee_view.xml',
-        'views/grp_devolucion_viaticos_view.xml',  # TODO: SPRING 11 GAP 28 L
-        'data/grp_viaticos_alertas_data.xml',  # TODO: K SPRING 12 GAP 33
+        'views/grp_devolucion_viaticos_view.xml',
+        'data/grp_viaticos_alertas_data.xml',
         'views/grp_report_expense.xml',
         'views/res_config_view.xml',
         'views/res_partner_view.xml',
     ],
     'installable': True,
-    'auto_install': False,
 }
-
