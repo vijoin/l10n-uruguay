@@ -1,6 +1,5 @@
 <!--TODO: SPRING 11 GAP 25 K-->
 <odoo>
-	<data>
 		<record id="grp_locomocion_propia_view_form" model="ir.ui.view">
             <field name="name">grp.locomocion.propia.view.form</field>
             <field name="model">grp.locomocion.propia</field>
@@ -62,6 +61,4 @@
                   name="Locomoción propia"
                   parent="grp_compras_estatales.menu_conf" sequence="7"
              groups="grp_viaticos.grp_configurador viatico"/>
-
-	</data>
 </odoo>

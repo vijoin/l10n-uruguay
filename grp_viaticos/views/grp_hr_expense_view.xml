@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
         <record id="view_expenses_form" model="ir.ui.view">
             <field name="name">grp.hr.expense.form</field>
             <field name="model">hr.expense.expense</field>
@@ -394,6 +393,4 @@
                 </form>
             </field>
         </record>
-
-    </data>
 </odoo>

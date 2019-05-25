@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <odoo>
-        <data>
         <record model="ir.ui.view" id="res_partner_advance_account_view">
                 <field name="name">res.partner.advance.account.view</field>
                 <field name="model">res.partner</field>
@@ -15,5 +14,4 @@
                     </xpath>
                 </field>
             </record>
-        </data>
 </odoo>

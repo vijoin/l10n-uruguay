@@ -1,6 +1,5 @@
 <!--TODO: SPRING 11 GAP 25 K-->
 <odoo>
-	<data>
 		<record id="grp_configuracion_importes_viaticos_view_form" model="ir.ui.view">
             <field name="name">grp.configuracion.importes.viaticos.view.form</field>
             <field name="model">grp.configuracion.importes.viaticos</field>
@@ -107,6 +106,4 @@
                   name="Configuración importes de viáticos"
                   parent="grp_compras_estatales.menu_conf" sequence="6"
              groups="grp_viaticos.grp_configurador viatico"/>
-
-	</data>
 </odoo>

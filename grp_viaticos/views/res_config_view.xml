@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
-
         <record id="view_account_config_settings_advance_inherited" model="ir.ui.view">
             <field name="name">view.account.settings.advance.inherited</field>
             <field name="model">account.config.settings</field>
@@ -13,6 +11,4 @@
                 </field>
             </field>
         </record>
-
-    </data>
 </odoo>
